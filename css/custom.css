@@ -1,0 +1,75 @@
+#mnroad-popup-menu {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 38px;
+}
+
+
+#mnroad-popup-menu>li:first-child {
+    width: 160px !important;
+    margin-left: -1px;
+}
+
+/* #mnroad-popup-menu>li:first-child>a {
+    background-position: -56px -38px !important;
+} */
+
+#mnroad-popup-menu>li>a {
+    background: url(../img/mnroad-menu-arrow-normal.png) -56px -38px;
+}
+
+#mnroad-popup-menu>li.itemMenusActive a {
+    background-position: -160px -76px;
+    color: white;
+    background: url(../img/mnroad-menu-arrow-active.png) -56px -38px;
+}
+
+#mnroad-popup-menu>li>a:hover {
+    background-position: 1px -38px;
+    background: url(../img/mnroad-menu-arrow-hover.png) -56px -38px;
+}
+
+#mnroad-popup-menu>li>a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* #mnroad-popup-menu>li.itemMenusActive a {
+    background-position: -56px -76px;
+    color: white;
+} */
+
+.ui-widget a {
+    font-size: 12px !important;
+}
+
+#mnroad-popup-menu>li:first-child>a:hover {
+    background-position: -56px -38px !important;
+}
+
+#mnroad-popup-menu>li.itemMenusActive a {
+    background-position: -56px -76px;
+    color: white;
+}
+
+ul#mnroad-popup-menu li {
+    list-style-type: none;
+    position: relative;
+    color: black;
+}
+
+#mnroad-popup-menu>li {
+    width: 160px;
+    height: 38px;
+    float: left;
+    margin: 0px;
+    padding: 0px !important;
+    position: relative;
+    margin-left: -16px;
+}
